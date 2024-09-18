@@ -1,5 +1,5 @@
 name: animated_overflow_progress_bar
-description: "A new Flutter package project."
+description: "A Flutter package to create a progress bar with an animated overflow effect."
 version: 1.0.0
 homepage: https://github.com/msamoeed/animated_overflow_progress_bar
 
