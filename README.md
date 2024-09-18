@@ -25,7 +25,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  animated_overflow_progress_bar: ^1.0.0
+  animated_overflow_progress_bar: ^1.0.1
 ```
 
 ## Usage
