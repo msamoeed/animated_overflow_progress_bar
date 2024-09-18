@@ -1,7 +1,7 @@
 name: animated_overflow_progress_bar
 description: "A new Flutter package project."
 version: 1.0.0
-homepage:
+homepage: https://github.com/msamoeed/animated_overflow_progress_bar
 
 environment:
   sdk: '>=3.4.3 <4.0.0'
@@ -19,15 +19,8 @@ dev_dependencies:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
-# The following section is specific to Flutter packages.
-flutter:
-  plugin:
-    platforms:
-      android:
-        package: com.example.animated_overflow_progress_bar
-        pluginClass: AnimatedOverflowProgressBarPlugin
-      ios:
-        pluginClass: AnimatedOverflowProgressBarPlugin
+
+
 
   # To add assets to your package, add an assets section, like this:
   # assets:
