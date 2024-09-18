@@ -2,6 +2,8 @@
 
 A customizable animated progress bar widget for Flutter applications, featuring overflow indication.
 
+![Animated Progress Bar](display/animated.gif)
+
 ## Features
 
 - Smooth animation when progress changes
@@ -9,6 +11,13 @@ A customizable animated progress bar widget for Flutter applications, featuring 
 - Overflow indication with customizable striped pattern
 - Flexible sizing options
 - Customizable border radius
+
+## Screenshots
+
+<p float="left">
+  <img src="display/image_1.png" width="400" />
+  <img src="display/image_2.png" width="400" /> 
+</p>
 
 ## Getting started
 
@@ -69,6 +78,17 @@ borderRadius: BorderRadius.only(
 ## Overflow Indication
 
 When the progress exceeds the total value, the widget automatically displays an overflow section with customizable striped pattern. This makes it easy to visualize when a limit has been exceeded.
+
+## Example
+
+For a complete example of how to use this widget, check out the `example` folder in this repository. It contains a full Flutter project demonstrating the usage of `AnimatedOverflowProgressBar`.
+
+To run the example:
+
+1. Clone this repository
+2. Navigate to the `example` directory
+3. Run `flutter pub get`
+4. Run `flutter run`
 
 ## Additional information
 

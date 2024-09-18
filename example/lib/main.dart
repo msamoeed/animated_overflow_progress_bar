@@ -36,6 +36,9 @@ class _MyHomePageState extends State<MyHomePage> {
   void _incrementProgress() {
     setState(() {
       _progress += 10;
+      if (_progress > 150) {
+        _progress = 0;
+      }
     });
   }
 
