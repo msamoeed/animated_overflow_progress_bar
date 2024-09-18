@@ -2,16 +2,15 @@
 
 This example demonstrates how to use the `AnimatedOverflowProgressBar` widget in a Flutter application.
 
+![Animated Progress Bar](../display/animated.gif)
+
 ## Setup
 
 First, add the `animated_overflow_progress_bar` dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  animated_overflow_progress_bar:
-    git:
-      url: https://github.com/msamoeed/animated_overflow_progress_bar.git
-      ref: main
+  animated_overflow_progress_bar: ^1.0.0
 ```
 
 ## Basic Usage
@@ -49,6 +48,10 @@ class ProgressBarDemo extends StatelessWidget {
   }
 }
 ```
+
+This will produce a progress bar similar to this:
+
+![Basic Progress Bar](../display/image_1.png)
 
 ## Advanced Usage
 
@@ -111,6 +114,10 @@ class _InteractiveProgressBarDemoState extends State<InteractiveProgressBarDemo>
   }
 }
 ```
+
+This interactive example can demonstrate the overflow feature:
+
+![Overflow Progress Bar](../display/image_2.png)
 
 ## Customization
 
