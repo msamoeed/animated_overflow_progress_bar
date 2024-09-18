@@ -42,7 +42,7 @@ class AnimatedOverflowProgressBar extends StatefulWidget {
   /// The [total] and [progress] parameters are required. All other parameters
   /// have default values and are optional.
   const AnimatedOverflowProgressBar({
-    Key? key,
+    super.key,
     required this.total,
     required this.progress,
     this.width = 300,
@@ -54,7 +54,7 @@ class AnimatedOverflowProgressBar extends StatefulWidget {
     this.borderColor = Colors.black,
     this.overflowTheme = const OverflowTheme(),
     this.borderRadius = const BorderRadius.all(Radius.circular(15)),
-  }) : super(key: key);
+  });
 
   @override
   State<AnimatedOverflowProgressBar> createState() => _AnimatedOverflowProgressBarState();
